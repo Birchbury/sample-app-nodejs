@@ -13,7 +13,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 marginHorizontal={{ mobile: 'none', tablet: 'xxxLarge' }}
                 marginVertical={{ mobile: 'none', tablet: "xxLarge" }}
             >
-                <Header />
+              
                 <SessionProvider>
                     <Component {...pageProps} />
                 </SessionProvider>
